@@ -85,3 +85,34 @@ body{
     border: 2px solid #1ebba3;
     cursor: pointer;
 }
+
+.contact ul {
+    max-width: 640px;
+    margin: 2em auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.contact ul li {
+    list-style: none;
+    align-self: flex-end;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: #c1c6ce;
+}
+
+svg {
+    width: 40%;
+}
+
+footer {
+    color: var(--color-1);
+    text-align: center;
+    grid-area: sidebar;
+    background-color: #485461;
+background-image: var(--liner-color);
+justify-content: center;
+}
