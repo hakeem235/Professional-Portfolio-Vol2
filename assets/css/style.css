@@ -6,7 +6,7 @@ body{
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
-
+/* navbar and backround section */
 .navbar{
     text-transform: uppercase;
     font-size: 14px;
@@ -63,3 +63,25 @@ body{
     letter-spacing: 2px;
 }
 
+/* About me section */
+#about .btn{
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about .btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about .btn:hover{
+    border: 2px solid #1ebba3;
+    cursor: pointer;
+}
