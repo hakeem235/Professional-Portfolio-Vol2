@@ -116,3 +116,54 @@ footer {
 background-image: var(--liner-color);
 justify-content: center;
 }
+
+/* media section  */
+
+@media screen and (max-width: 767px) {
+    .navbar{
+        letter-spacing: 0.1em;
+        padding: 10px 0;
+    }
+    
+    .heading-content h5 {
+        font-size: 3em;
+    }
+    
+    .heading-content h1 {
+        font-size: 3em;
+    }
+    
+    .heading-content p {
+        font-size: .9em;
+    }  
+}
+
+@media screen and (max-width: 767px) {
+
+    .navbar{
+        letter-spacing: 0.1em;
+        padding: 7 px 0;
+    }
+    
+    .heading-content h5 {
+        font-size: 2em;
+    }
+    
+    .heading-content h1 {
+        font-size: 2em;
+    }
+    
+    .heading-content p {
+        font-size: .7em;
+    } 
+
+.heading-content{
+        top: 16%;
+    }
+
+    #about {
+        text-align: center;
+        
+    }
+
+}
