@@ -167,3 +167,7 @@ justify-content: center;
     }
 
 }
+
+.text{ 
+    text-align: justify;
+}
